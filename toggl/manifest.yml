@@ -1,11 +1,11 @@
 application:
-  name: Hello World
+  name: Toggl
   version: 1.0.0
-  description: This is a straightforward application that renders simple text on the screen and demonstrates the basic method of creating interactive applications using the LVGL graphics library.
-  author: Vobot
-  author_email: support@getvobot.com
-  bugs: https://github.com/myvobot/dock-mini-apps/issues
-  repository: https://github.com/myvobot/dock-mini-apps/tree/main/hello_world
+  description: This app shows the current running Toggl timer
+  author: Zach Strout
+  author_email: zachstrout@gmail.com
+  bugs: https://github.com/RTnhN/dock-mini-apps/issues
+  repository: https://github.com/RTnhN/dock-mini-apps/toggl
   licenses: MIT
 
 system_requirements:
@@ -16,3 +16,4 @@ system_requirements:
 files:
   include:
     - __init__.py
+
