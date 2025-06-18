@@ -43,7 +43,10 @@ def event_handler(event):
     if e_code == lv.EVENT.KEY:
         e_key = event.get_key()
         if e_key == lv.KEY.ENTER:
-            global countdown_is_running, last_recorded_time
+            global countdown_is_running, last_recorded_time, remander
+            if remander == 0:
+                reset_countdown()
+                return
             last_recorded_time = time.ticks_ms()
             countdown_is_running = not countdown_is_running
 
